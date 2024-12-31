@@ -1,0 +1,48 @@
+.features {
+  background: linear-gradient(#000000, #00247d);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .features-title {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 3rem;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .feature-card {
+    background: linear-gradient(45deg, #cf142b, #1b0104);
+    border-radius: 10px;
+    padding: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-description {
+    color: white;
+    line-height: 1.6;
+  }
+  

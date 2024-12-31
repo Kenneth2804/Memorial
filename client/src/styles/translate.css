@@ -1,0 +1,59 @@
+.language-switcher {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #3b82f6;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+  }
+  
+  .language-switcher:hover {
+    background-color: #2563eb;
+    transform: scale(1.1);
+  }
+  
+  .language-switcher:active {
+    transform: scale(0.9);
+  }
+  
+  .language-switcher:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+  }
+  
+  .language-text {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .language-text-enter {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  
+  .language-text-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .language-text-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .language-text-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
