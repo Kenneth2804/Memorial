@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { postuser } from '../../redux/actions';
+import { postuser } from '../../redux/actions/index';
 import { useDispatch } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from '../../hook/useTranslation';
@@ -105,7 +105,7 @@ export default function Register() {
                         </a>
                     </div>
                     <Link>
-                    <button type="submit" className="loginButton">
+                    <button onClick={handleSubmit} type="submit" className="loginButton">
                 {t("register.Register")}
                     </button>
                     </Link>
@@ -115,7 +115,7 @@ export default function Register() {
                 </div>
                 <button
                     className="registerButton"
-                    onClick={() => navigate("/register")}
+                    onClick={() => navigate("/login")}
                     >
                       {t("register.Login")}
                 </button>

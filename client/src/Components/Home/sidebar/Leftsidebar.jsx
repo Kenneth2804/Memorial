@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Home, Users, MessageCircle, Heart } from 'lucide-react';
 import '../../../styles/leftsidebar.css';
+import Logout from '../../login/Logout';
 
 const Leftsidebar = () => {
   const [posts] = useState([
@@ -38,6 +39,9 @@ const Leftsidebar = () => {
         <div className="sidebar-icon">
           <Users className="icon" size={24} />
           <span className="icon-label">Friends</span>
+        </div>
+        <div>
+          <Logout></Logout>
         </div>
       </div>
 

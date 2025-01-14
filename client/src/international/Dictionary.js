@@ -1,5 +1,8 @@
 const dictionary = {
     en: {
+      messages:{
+        successMessage: "WELCOME!"
+      },
       hero: {
         title: "Memoriam",
         subtitle: "Honor and celebrate the lives of those who have touched our hearts",
@@ -31,6 +34,18 @@ const dictionary = {
         email: "you@example.com",
         NameLabel: "Name",
         name: "name...",
+        PasswordLabel: "Password",
+        ForgotPassword: "Forgot Password?",
+        Register: "Register",
+        Login: "Login",
+        choose: "OR"
+      },
+      login:
+      {
+        Logintitle: "Welcome",
+        Loginsubtitle: "A place to remember",
+        emailLabel: "Email",
+        email: "you@example.com",
         PasswordLabel: "Password",
         ForgotPassword: "Forgot Password?",
         Register: "Register",
@@ -76,7 +91,22 @@ const dictionary = {
         Register: "Registrarse",
         Login: "Iniciar Sesión",
         choose: "O"
-      }
+      },
+      login:
+      {
+        Logintitle: "Bienvenido",
+        Loginsubtitle: "Un lugar para recordar y honrar a los que han partido",
+        emailLabel: "Correo electrónico",
+        email: "tú@ejemplo.com",
+        PasswordLabel: "Contraseña",
+        ForgotPassword: "¿Olvidaste tu contraseña?",
+        Register: "Registrarse",
+        Login: "Iniciar Sesión",
+        choose: "O"
+      },
+      messages:{
+        successMessage: "FELICIDADES!"
+      },
     },
   };
   

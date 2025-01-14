@@ -1,0 +1,15 @@
+.iconLogout {
+    color: #202022;
+    background-color: #ca2020;
+  }
+  
+  .icon-Logout {
+    display: none; 
+    color: #ca2020;
+    font-weight: 500;
+  }
+  
+  .sidebar:hover .icon-Logout {
+    display: block; 
+  }
+  

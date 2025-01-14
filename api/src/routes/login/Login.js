@@ -36,9 +36,6 @@ router.post("/", validateInputs, async (req, res) => {
       return res.status(401).json({ message: "La contraseña es incorrecta" });
     }
 
-
-    
-
     const token = jwt.sign({ id: user.id }, process.env.JWT_SECRET, {
       expiresIn: "3h"
     });

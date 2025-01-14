@@ -1,0 +1,156 @@
+.Logincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#00247d, #000000);
+    font-family: Arial, sans-serif;
+  }
+  
+  .Logincard {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .LoginlogoContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .Logintitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .Loginsubtitle {
+    font-size: 0.875rem;
+    text-align: center;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .Loginform {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .LogininputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .Loginlabel {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .Logininput {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .Logininput:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+  }
+  
+  .rememberForgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+  }
+  
+  .rememberMe {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .Registercheckbox {
+    accent-color: #3b82f6;
+  }
+  
+  .RegistercheckboxLabel {
+    color: #333;
+  }
+  
+  .forgotPassword {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+  
+  .forgotPassword:hover {
+    text-decoration: underline;
+  }
+  
+  .loginButton {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .loginButton:hover {
+    background-color: #b91c1c;
+  }
+  
+  .separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .separatorText {
+    padding: 0 0.5rem;
+    color: #666;
+    font-size: 0.875rem;
+  }
+  
+  .registerButton {
+    width: 100%;
+    background-color: transparent;
+    color: #3b82f6;
+    border: 1px solid #3b82f6;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .registerButton:hover {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
